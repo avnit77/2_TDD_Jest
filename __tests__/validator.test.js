@@ -11,7 +11,7 @@ describe('test validator', () => {
       });
     });
 
-    it('returns the field of the object', () => {
+    it('returns the value of the field of the object', () => {
       const cat = {
         name: 'Gravy',
         age: 1,
