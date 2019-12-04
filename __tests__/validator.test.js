@@ -21,5 +21,4 @@ describe('test validator', () => {
       expect(validator.validate(cat)).toEqual('Gravy');
     });
   });
-})
-;
+});
