@@ -1,0 +1,30 @@
+{
+  "name": "2_TDD_Jest",
+  "version": "1.0.0",
+  "description": "This is the second lab in a three day series about schema and schema validation. For this lab, you'll use Jest to test a `Validator` class and a `Schema` class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint '**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "eslint": "^6.7.0",
+    "jest": "^24.9.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avnit77/2_TDD_Jest.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/avnit77/2_TDD_Jest/issues"
+  },
+  "homepage": "https://github.com/avnit77/2_TDD_Jest#readme"
+}
